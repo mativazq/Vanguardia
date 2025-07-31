@@ -1,10 +1,11 @@
 import React from 'react'
+import './Header.css'
+import logo from '../../Imagenes/Vanguardia.jpg'
 
 const Header = () => {
   return (
     <>
-      <h1>Vanguardia</h1>
-      <h4>Muebles a Medida</h4>
+      <img src={logo} alt="Vanguardia Logo"  className='header-logo'/>
     </>
   )
 }
