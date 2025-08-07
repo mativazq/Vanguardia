@@ -2,6 +2,7 @@
 .font-productos {
   font-size: 2rem;
   font-weight: bold;
+  margin-bottom: 50px;
   color: white;
     font-family: "Urbanist", sans-serif;
       font-optical-sizing: auto;
@@ -9,3 +10,12 @@
   font-style: normal;
 }
 
+.img-productos {
+  width: 45rem;
+  height: auto;
+  &:hover {
+        transition: 0.8s;
+        transform: scale(1.1); 
+      }
+
+}
