@@ -1,11 +1,10 @@
-
 .font-productos {
   font-size: 2rem;
   font-weight: bold;
   margin-bottom: 50px;
   color: white;
-    font-family: "Urbanist", sans-serif;
-      font-optical-sizing: auto;
+  font-family: "Urbanist", sans-serif;
+  font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 }
@@ -18,30 +17,33 @@
 }
 
 .btn-imagen {
-
   width: 500px;
   height: 200px;
   background-image: url("../../Imagenes/Img-Mesadas.jpg");
-  background-size: cover; 
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   border: none;
   cursor: pointer;
-  color: black;
-    border-radius: 12px;
-    &:hover {
-        transition: 0.8s;
-        transform: scale(1.1); 
-          box-shadow: 0px 4px 8px rgba(248, 248, 248, 0.3);
-      }
+  border-radius: 12px;
+  &:hover {
+    transition: 0.8s;
+    transform: scale(1.1);
+    box-shadow: 0px 4px 8px rgba(248, 248, 248, 0.3);
+  }
 }
 
 .btn-imagen.bachas {
   background-image: url("../../Imagenes/Img-Bachas.webp");
-  color: white;
 }
 
 .btn-imagen.melaminas {
   background-image: url("../../Imagenes/Img-Melaminas.jpg");
-  color: white;
 }
+
+.texto-recuadro {
+  background-color: rgb(0, 0, 0); /* negro semi-transparente */;
+  padding: 4px 8px;
+  border-radius: 6px; /* esquinas redondeadas */
+  font-size: 30px;
+  }

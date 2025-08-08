@@ -10,21 +10,21 @@ const Productos = () => {
         className="btn-imagen font-productos" 
         onClick={() => alert("Botón presionado")}
       >
-        Mesadas
+  <span className="texto-recuadro">Mesadas</span>
       </button>
 
       <button 
         className="btn-imagen font-productos bachas" 
         onClick={() => alert("Botón presionado")}
       >
-        Bachas
+  <span className="texto-recuadro">Bachas</span>
       </button>
       
             <button 
         className="btn-imagen font-productos melaminas" 
         onClick={() => alert("Botón presionado")}
       >
-        Melaminas
+        <span className="texto-recuadro">Melaminas</span>
       </button>
       </div>
     </>
