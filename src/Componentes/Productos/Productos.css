@@ -10,12 +10,38 @@
   font-style: normal;
 }
 
-.img-productos {
-  width: 45rem;
-  height: auto;
-  &:hover {
+.container-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.btn-imagen {
+
+  width: 500px;
+  height: 200px;
+  background-image: url("../../Imagenes/Img-Mesadas.jpg");
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  color: black;
+    border-radius: 12px;
+    &:hover {
         transition: 0.8s;
         transform: scale(1.1); 
+          box-shadow: 0px 4px 8px rgba(248, 248, 248, 0.3);
       }
+}
 
+.btn-imagen.bachas {
+  background-image: url("../../Imagenes/Img-Bachas.webp");
+  color: white;
+}
+
+.btn-imagen.melaminas {
+  background-image: url("../../Imagenes/Img-Melaminas.jpg");
+  color: white;
 }
