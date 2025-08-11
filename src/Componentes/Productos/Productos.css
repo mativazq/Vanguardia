@@ -47,3 +47,18 @@
   border-radius: 6px; /* esquinas redondeadas */
   font-size: 30px;
   }
+
+.btn-imagen.from-left {
+  opacity: 0;
+  transform: translateX(-100px);
+  transition: opacity 0.8s, transform 0.8s;
+}
+.btn-imagen.from-right {
+  opacity: 0;
+  transform: translateX(100px);
+  transition: opacity 0.8s, transform 0.8s;
+}
+.btn-imagen.show {
+  opacity: 1;
+  transform: translateX(0);
+}
