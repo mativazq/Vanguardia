@@ -28,7 +28,7 @@ const Productos = () => {
         <button
           ref={btnRefs[0]}
           className="btn-imagen font-productos from-left"
-          onClick={() => alert("Plasty Gay")}
+          onClick={() => alert("Proximamente más cosas")}
         >
           <span className="texto-recuadro">Mesadas</span>
         </button>
@@ -36,7 +36,7 @@ const Productos = () => {
         <button
           ref={btnRefs[1]}
           className="btn-imagen font-productos from-right"
-          onClick={() => alert("Plasty Gay")}
+          onClick={() => alert("Proximamente más cosas")}
         >
           <span className="texto-recuadro">Bachas</span>
         </button>
@@ -44,7 +44,7 @@ const Productos = () => {
         <button
           ref={btnRefs[2]}
           className="btn-imagen font-productos from-left"
-          onClick={() => alert("Plasty Gay")}
+          onClick={() => alert("Proximamente más cosas")}
         >
           <span className="texto-recuadro">Melaminas</span>
         </button>
