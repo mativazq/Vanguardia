@@ -1,5 +1,5 @@
 import React from "react";
-import "./footer.css";
+import "./Footer.css";
 import ImgLogo from "../../Imagenes/Vanguardia-png.png"
 
 const Footer = () => {
