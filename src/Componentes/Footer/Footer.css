@@ -1,77 +1,65 @@
 .footer {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #2a292b;
-    color: #ccc;
-    padding: 20px 40px;
-  }
-  
-  .footer-left {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+  display: flex;
+  justify-content: space-around;
+  align-items: center; 
+  background-color: #2a292b;
+  color: #ccc;
+  padding: 20px 40px;
+  flex-wrap: wrap; 
+  gap: 20px; 
+}
 
-  .foot-by{
-    margin-top: 10px;
-    font-size: 14px;
-    text-decoration: none;
-  }
+.footer-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
 
-  .foot-by {
-    text-decoration: none;
-    color: #ccc;
-    transition: color 0.3s ease;
-  }
-  
-  .logo {
-    width: 300px;
-    max-width: 100%;
-    height: auto;
-  }
-  
-  .footer-right {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .footer-right h4 {
-    font-size: 24px;
-    margin-bottom: 10px;
-    color: white;
-  font-weight: bold;
+.foot-by {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #ccc;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.foot-by:hover {
+  color: white;
+}
+
+.logo {
+  width: 300px;
+  max-width: 100%;
+  height: auto;
+}
+
+.footer-right {
+  min-width: 250px; /* Evita que se compacte demasiado */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Alinea a la izquierda */
+  text-align: left;
+}
+
+.footer-right h4 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: white;
   font-family: "Urbanist", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 400;
-  font-style: normal;
-  }
-  
-  .footer-right ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .footer-right li {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin-bottom: 5px;
-  }
-  
-  .footer-right a {
-    text-decoration: none;
-    color: #ccc;
-    transition: color 0.3s ease;
-  }
-  
-  .footer-right a:hover {
-    color: white;
-  }
-  
-  .icon {
-    font-size: 20px;
-    color: #ccc;
-  }
-  
+}
+
+.footer-right ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-right li {
+  margin-bottom: 8px;
+}
+
+.footer-right p {
+  margin: 0;
+}

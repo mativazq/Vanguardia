@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className="footer" id="contact">
       <div className="footer-left">
       <img src= {ImgLogo} alt="Logo" className="logo" />
-      <a className="foot-by" href="#">Designed by Matias Vazquez</a>
+      <a className="foot-by" href="https://www.linkedin.com/in/mativazq/">Designed by Matias Vazquez</a>
       </div>
 
       <div className="footer-right">
@@ -15,7 +15,7 @@ const Footer = () => {
         <ul>
           <li>
             <p>TELEFONO:</p>
-            <p>+54 9 11 2345 6789</p>
+            <p>+54 9 01 2345 6789</p>
           </li>
           <li>
             <p>EMAIL:</p>
@@ -23,7 +23,7 @@ const Footer = () => {
           </li>
           <li>
             <p>UBICACION:</p>
-            <p>Santa Fe, Argentina</p>
+            <a className="foot-by" href="https://maps.app.goo.gl/xKQ9raUida8SkvfL7">Paseo de las Acacias. Santa Fe, Argentina</a>
           </li>
         </ul>
       </div>
