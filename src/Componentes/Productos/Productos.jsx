@@ -35,7 +35,7 @@ const Productos = () => {
 
         <button
           ref={btnRefs[1]}
-          className="btn-imagen font-productos from-right"
+          className="btn-imagen bachas font-productos from-right"
           onClick={() => alert("Proximamente más cosas")}
         >
           <span className="texto-recuadro">Bachas</span>
@@ -43,7 +43,7 @@ const Productos = () => {
 
         <button
           ref={btnRefs[2]}
-          className="btn-imagen font-productos from-left"
+          className="btn-imagen melaminas font-productos from-left"
           onClick={() => alert("Proximamente más cosas")}
         >
           <span className="texto-recuadro">Melaminas</span>
