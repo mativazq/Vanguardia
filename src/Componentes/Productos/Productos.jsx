@@ -1,7 +1,9 @@
 import React, { useRef, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import "./Productos.css";
 
 const Productos = () => {
+  const navigate = useNavigate();
   const btnRefs = [useRef(), useRef(), useRef()];
 
   useEffect(() => {
@@ -28,7 +30,7 @@ const Productos = () => {
         <button
           ref={btnRefs[0]}
           className="btn-imagen font-productos from-left"
-          onClick={() => alert("Proximamente más cosas")}
+          onClick={() => navigate("/mesadas")}
         >
           <span className="texto-recuadro">Mesadas</span>
         </button>
@@ -36,7 +38,7 @@ const Productos = () => {
         <button
           ref={btnRefs[1]}
           className="btn-imagen bachas font-productos from-right"
-          onClick={() => alert("Proximamente más cosas")}
+          onClick={() => navigate("/bachas")}
         >
           <span className="texto-recuadro">Bachas</span>
         </button>
@@ -44,7 +46,7 @@ const Productos = () => {
         <button
           ref={btnRefs[2]}
           className="btn-imagen melaminas font-productos from-left"
-          onClick={() => alert("Proximamente más cosas")}
+          onClick={() => navigate("/melaminas")}
         >
           <span className="texto-recuadro">Melaminas</span>
         </button>

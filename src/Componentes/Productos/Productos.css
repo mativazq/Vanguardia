@@ -43,9 +43,9 @@
 }
 
 .texto-recuadro {
-  background-color: rgb(0, 0, 0); /* negro semi-transparente */;
+  background-color: rgb(0, 0, 0); 
   padding: 4px 8px;
-  border-radius: 6px; /* esquinas redondeadas */
+  border-radius: 6px; 
   font-size: 30px;
   }
 

@@ -1,0 +1,100 @@
+/* src/Componentes/Galeria/Galeria.css */
+.galeria {
+  padding: 20px;
+  text-align: center;
+}
+
+.galeria-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.galeria-item {
+  background: rgb(80, 80, 83);
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.galeria-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+
+
+
+
+.galeria-item {
+  perspective: 1000px;
+  cursor: pointer;
+    background: rgb(80, 80, 83);
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.card {
+  width: 100%;
+  height: 320px; /* 🔹 Ajusta a la altura que quieras fija */
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.8s;
+}
+
+/* Efecto con hover (desktop) */
+.galeria-item:hover .card {
+  transform: rotateY(180deg);
+}
+
+/* Efecto con click/tap (mobile) */
+.card.flipped {
+  transform: rotateY(180deg);
+}
+
+.card-front,
+.card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;   /* 🔹 Esto garantiza que ambos lados tengan la misma altura */
+  backface-visibility: hidden;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* 🔹 Centrado del contenido */
+  align-items: center;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+
+
+.card-front img {
+  width: 100%;
+  height: 180px; /* 🔹 Ajusta según quieras */
+  object-fit: cover;
+
+}
+
+
+.card-front h3,
+.card-front p {
+  margin: 5px;
+}
+
+.card-back {
+    background: rgb(80, 80, 83);
+  color: #fff;
+  transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  text-align: center;
+}
