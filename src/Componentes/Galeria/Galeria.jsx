@@ -6,6 +6,7 @@ const Galeria = ({ productos, titulo }) => {
   return (
     <div className="galeria">
       <h2>{titulo}</h2>
+      <h3 className="font-productos">BACHAS</h3>
       <div className="galeria-grid">
         {productos.map((p) => (
           <FlipCard key={p.id} producto={p} />
