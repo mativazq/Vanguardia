@@ -1,12 +1,15 @@
 import React from "react";
 import "./Footer.css";
 import ImgLogo from "../../Imagenes/Vanguardia-png.png"
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
     <footer className="footer" id="contact">
       <div className="footer-left">
-      <img src= {ImgLogo} alt="Logo" className="logo" />
+        <Link to='/'>
+          <img src= {ImgLogo} alt="Logo" className="logo" />
+        </Link>
       <a className="foot-by" href="https://www.linkedin.com/in/mativazq/">Designed by Matias Vazquez</a>
       </div>
 

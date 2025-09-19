@@ -27,25 +27,33 @@ const Galeria = ({ productos, titulo }) => {
 const FlipCard = ({ producto }) => {
   const [flipped, setFlipped] = useState(false);
 
+  // Detectar si es mobile
+  const isMobile = window.innerWidth <= 768;
+
   const toggleFlip = () => {
-    setFlipped(!flipped);
+    if (isMobile) {
+      setFlipped(!flipped); // solo en mobile permite toggle
+    }
   };
 
   return (
-    <div className="galeria-item" onClick={toggleFlip}>
+    <div 
+      className={`galeria-item ${isMobile ? "clickable" : ""}`} 
+      onClick={toggleFlip}
+    >
       <div className={`card ${flipped ? "flipped" : ""}`}>
         <div className="card-front">
           <img src={producto.img} alt={producto.nombre} />
           <h3>{producto.nombre}</h3>
-          <p>Medida: {producto.medida}</p>
+          {producto.medida && <p>Medida: {producto.medida}</p>}
         </div>
         <div className="card-back">
-          <h3>{producto.nombre}</h3>
           <p>{producto.descripcion}</p>
         </div>
       </div>
     </div>
   );
 };
+
 
 export default Galeria;

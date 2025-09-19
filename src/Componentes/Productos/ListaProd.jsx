@@ -19,6 +19,27 @@ import bacha18 from '../../Imagenes/img-bacha/bacha-18.jpg'
 import bacha19 from '../../Imagenes/img-bacha/bacha-19.jpg'
 import bacha20 from '../../Imagenes/img-bacha/bacha-20.jpg'
 
+import melamina1 from '../../Imagenes/img-melamina/melamina-1.jpg'
+import melamina2 from '../../Imagenes/img-melamina/melamina-2.jpg'
+import melamina3 from '../../Imagenes/img-melamina/melamina-3.jpg'
+import melamina4 from '../../Imagenes/img-melamina/melamina-4.jpg'
+import melamina5 from '../../Imagenes/img-melamina/melamina-5.jpg'
+import melamina6 from '../../Imagenes/img-melamina/melamina-6.jpg'
+import melamina7 from '../../Imagenes/img-melamina/melamina-7.jpg'
+import melamina8 from '../../Imagenes/img-melamina/melamina-8.jpg'
+import melamina9 from '../../Imagenes/img-melamina/melamina-9.jpg'
+import melamina10 from '../../Imagenes/img-melamina/melamina-10.jpg'
+import melamina11 from '../../Imagenes/img-melamina/melamina-11.jpg'
+import melamina12 from '../../Imagenes/img-melamina/melamina-12.jpg'
+import melamina13 from '../../Imagenes/img-melamina/melamina-13.jpg'
+import melamina14 from '../../Imagenes/img-melamina/melamina-14.jpg'
+import melamina15 from '../../Imagenes/img-melamina/melamina-15.jpg'
+import melamina16 from '../../Imagenes/img-melamina/melamina-16.jpg'
+import melamina17 from '../../Imagenes/img-melamina/melamina-17.jpg'
+import melamina18 from '../../Imagenes/img-melamina/melamina-18.jpg'
+import melamina19 from '../../Imagenes/img-melamina/melamina-19.jpg'
+import melamina20 from '../../Imagenes/img-melamina/melamina-20.jpg'
+
 
 
 export const bachas = [
@@ -54,6 +75,25 @@ export const mesadas = [
 
 
 export const melaminas = [
-  { id: 1, nombre: "Melamina Blanca", medida: "", descripcion: "", img: "/img/melamina1.jpg" },
-  { id: 2, nombre: "Melamina Roble", medida: "", descripcion: "", img: "/img/melamina2.jpg" }
+  { id: 1, nombre: "Petiribi", descripcion: "Diseño maderado de estructura lineal, con un leve movimiento en las vetas. Calidez natural y elegancia atemporal, con la riqueza cromática y las vetas únicas del petiribí.", img: melamina1 },
+  { id: 2, nombre: "Yute", descripcion: "Inspirado en la fibra natural del yute, este diseño viene a ofrecer una gran alternativa a textiles naturales o al papel tapiz, incrementando las posibilidades para poder fabricar mobiliario con una apariencia textil en un color completamente natural.", img: melamina2 },
+  { id: 3, nombre: "Terracota", descripcion: "Un tono profundo y vibrante que evoca la intensidad de los suelos mesopotámicos. Este diseño terracota aporta calidez, identidad y un carácter natural a cualquier espacio.", img: melamina3 },
+  { id: 4, nombre: "Grey Extreme Matt", descripcion: "Gris grafito cálido en terminación EXTREME MATT. Su acabado ultra-opaco lo vuelve un complemento ideal para tus proyectos.", img: melamina4 },
+  { id: 5, nombre: "Black Extreme Matt", descripcion: "Negro en terminación EXTREME MATT. La alternativa ideal para espacios como cocinas y escritorios gracias a su superficie anti-réflex y su color negro intenso.", img: melamina5 },
+  { id: 6, nombre: "White Extreme Gloss", descripcion: "Blanco cálido en terminación EXTREME GLOSS. Su acabado espejado genera ese efecto laqueado tan buscado.", img: melamina6 },
+  { id: 7, nombre: "Gris Caliza", descripcion: "Evocando el color de la piedra caliza, este diseño gris claro se destaca por su facilidad a la hora de combinarlo con otros colores y diseños como las maderas. Su textura supermate perceptible al tacto lo convierte en un diseño versátil que transmite una sensación de calidez a los ambientes.", img: melamina7 },
+  { id: 8, nombre: "Gris Basalto", descripcion: "Tono neutral y versátil. Un gris intermedio, fresco y moderno que transmite una sensación de estabilidad y sobriedad. Un tono atemporal y elegante que se adapta fácilmente a una variedad de estilos de diseño y decoración gracias a su acabado supermate.", img: melamina8 },
+  { id: 9, nombre: "Gris Tapir", descripcion: "Inspirado en el pelaje de este animal exótico característico de la Mesopotamia, la belleza de este color radica en su capacidad para combinar la calidez de los tonos terrosos con la profundidad del gris. Elegante y sofisticado, su textura supermate añade un toque de distinción y estilo sutil permitiendo crear ambientes acogedores y terrenales.", img: melamina9 },
+  { id: 10, nombre: "Amatista", descripcion: "Inspirado en la piedra amatista y su distintivo color lavanda presentado en una exclusiva textura supermate. Este color tiende a evocar sentimientos de serenidad y paz, lo que lo hace adecuado para crear ambientes tranquilos y apacibles.", img: melamina10 },
+  { id: 11, nombre: "Jade", descripcion: "Inspirado en la piedra jade, el frescor y la tranquilidad de la naturaleza, este diseño verde suave se destaca por sus versátiles aplicaciones. El acabado supermate reproduce el efecto laqueado mate y traslada a los proyectos la esencia de vida y serenidad.", img: melamina11 },
+  { id: 12, nombre: "Kiri", descripcion: "Su color natural es suave y cálido, con una veta sutil pero atractiva, que añade un toque de elegancia a cualquier proyecto. El diseño se presenta en la textura Bark, que simula la corteza de un árbol, resaltando sus tonos que van desde un blanco cremoso hasta un suave beige.", img: melamina12 },
+  { id: 13, nombre: "Paraíso", descripcion: "Diseño de aspecto elegante y atemporal. Presenta un tono medio y cálido con una veta rojiza muy distintiva que añade un encanto único a cualquier proyecto. Su textura maderada lineal resalta a la perfección las catedrales características de esta madera.", img: melamina13 },
+  { id: 14, nombre: "Merlot", descripcion: "Un roble oscuro con tonos rojizos y elegantes contrastes, desprendiendo notas a tabaco y chocolate, transmitiendo calidez y exclusividad al mobiliario.", img: melamina14 },
+  { id: 15, nombre: "Pinot Gris", descripcion: "Delicada combinación de matices violáceos y grises, aportando serenidad y calma para tus ambientes.", img: melamina15 },
+  { id: 16, nombre: "Camellia", descripcion: "El perfecto equilibrio entre moderno y elegante. Su innovador diseño presenta una estructura única que lo convierte en el compañero ideal de todos los ambientes.", img: melamina16 },
+  { id: 17, nombre: "Scotch", descripcion: "Inspirado en los nogales, el diseño se destaca por sus tonos caramelos y vetas pronunciadas, iluminando los ambientes con su calidez.", img: melamina17 },
+  { id: 18, nombre: "Amaranto", descripcion: "Con la naturalidad de un roble de suaves nudos, se presenta como un diseño atemporal. Su versatilidad, permite combinaciones con diferentes tipos de materiales y tonos.", img: melamina18 },
+  { id: 19, nombre: "Sauco", descripcion: "De color intenso, este diseño de madera negra quemada resalta a la perfección la textura BARK, dándole un toque extra de naturaleza y minimalismo.", img: melamina19 },
+  { id: 20, nombre: "Seda Azurra", descripcion: "Un azul que nos traslada al Mediterráneo, con una trama hilada fresca y pura que nos propone ambientes relajados y calmos.", img: melamina20 },
+
 ];
