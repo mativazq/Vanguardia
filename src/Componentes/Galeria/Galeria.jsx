@@ -1,16 +1,23 @@
 // src/Componentes/Galeria/Galeria.jsx
 import React, { useState } from "react";
+import { Link } from "react-router-dom";  // 👈 importamos Link
 import "./Galeria.css";
 
 const Galeria = ({ productos, titulo }) => {
   return (
     <div className="galeria">
       <h2>{titulo}</h2>
-      <h3 className="font-productos">BACHAS</h3>
       <div className="galeria-grid">
         {productos.map((p) => (
           <FlipCard key={p.id} producto={p} />
         ))}
+      </div>
+
+      {/* 👇 botón para volver al menú principal */}
+      <div className="volver-menu">
+        <Link to="/">
+          <button className="btn-volver">Volver al menú principal</button>
+        </Link>
       </div>
     </div>
   );
