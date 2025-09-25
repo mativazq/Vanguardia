@@ -40,6 +40,40 @@ import melamina18 from '../../Imagenes/img-melamina/melamina-18.jpg'
 import melamina19 from '../../Imagenes/img-melamina/melamina-19.jpg'
 import melamina20 from '../../Imagenes/img-melamina/melamina-20.jpg'
 
+import mesada1 from '../../Imagenes/img-mesada/mesada-1.jpg'
+import mesada2 from '../../Imagenes/img-mesada/mesada-2.jpg'
+import mesada3 from '../../Imagenes/img-mesada/mesada-3.jpg'
+import mesada4 from '../../Imagenes/img-mesada/mesada-4.jpg'
+import mesada5 from '../../Imagenes/img-mesada/mesada-5.jpg'
+import mesada6 from '../../Imagenes/img-mesada/mesada-6.jpg'
+import mesada7 from '../../Imagenes/img-mesada/mesada-7.jpg'
+import mesada8 from '../../Imagenes/img-mesada/mesada-8.jpg'
+import mesada9 from '../../Imagenes/img-mesada/mesada-9.jpg'
+import mesada10 from '../../Imagenes/img-mesada/mesada-10.jpg'
+import mesada11 from '../../Imagenes/img-mesada/mesada-11.jpg'
+import mesada12 from '../../Imagenes/img-mesada/mesada-12.jpg'
+import mesada13 from '../../Imagenes/img-mesada/mesada-13.jpg'
+import mesada14 from '../../Imagenes/img-mesada/mesada-14.jpg'
+import mesada15 from '../../Imagenes/img-mesada/mesada-15.jpg'
+import mesada16 from '../../Imagenes/img-mesada/mesada-16.jpg'
+import mesada17 from '../../Imagenes/img-mesada/mesada-17.jpg'
+import mesada18 from '../../Imagenes/img-mesada/mesada-18.jpg'
+import mesada19 from '../../Imagenes/img-mesada/mesada-19.jpg'
+import mesada20 from '../../Imagenes/img-mesada/mesada-20.jpg'
+import mesada21 from '../../Imagenes/img-mesada/mesada-21.jpg'
+import mesada22 from '../../Imagenes/img-mesada/mesada-22.jpg'
+import mesada23 from '../../Imagenes/img-mesada/mesada-23.jpg'
+import mesada24 from '../../Imagenes/img-mesada/mesada-24.jpeg'
+import mesada25 from '../../Imagenes/img-mesada/mesada-25.jpg'
+import mesada26 from '../../Imagenes/img-mesada/mesada-26.jpg'
+import mesada27 from '../../Imagenes/img-mesada/mesada-27.jpg'
+import mesada28 from '../../Imagenes/img-mesada/mesada-28.jpg'
+import mesada29 from '../../Imagenes/img-mesada/mesada-29.jpg'
+import mesada30 from '../../Imagenes/img-mesada/mesada-30.jpg'
+import mesada31 from '../../Imagenes/img-mesada/mesada-31.jpg'
+import mesada32 from '../../Imagenes/img-mesada/mesada-32.jpg'
+
+
 
 
 export const bachas = [
@@ -69,8 +103,39 @@ export const bachas = [
 
 
 export const mesadas = [
-  { id: 1, nombre: "Mesada Granito", medida: "", descripcion: "", img: "/img/mesada1.jpg" },
-  { id: 2, nombre: "Mesada Mármol", medida: "", descripcion: "", img: "/img/mesada2.jpg" }
+  { id: 1, nombre: "Classic Calacatta", descripcion: "Una reinterpretación elegante y sutil de la atemporal Calacatta. Destaca por sus vetas grisáceas uniformes que atraviesan el fondo neutro con un aspecto traslúcido. El Classic Calacatta evoca la naturaleza gracias a su gran parecido con la piedra real.", img: mesada1 },
+  { id: 2, nombre: "Pearl Jasmine", descripcion: "Con un aspecto de piedra caliza blanca y cubierto con sutiles vetas grises, crea un impresionante efecto de grietas. Este modelo combina perfectamente con una cocina clásica o rural y aquellas que pretenden recrear un leve sentido de la tradición.", img: mesada2 },
+  { id: 3, nombre: "Marquina", descripcion: "Evocando al bello mármol español Negro Marquina, esta opción regala una vehemente base de color negro donde surgen contundentes e intensos detalles y veteados blancos.", img: mesada3 },
+  { id: 4, nombre: "Awake", descripcion: "Reinterpreta los atributos icónicos de la preciosa piedra de Paonazzo. Un grueso veteado con degradados de grises claros y cremas con deliciosos terracotas oxidados y sutiles azules entintados.", img: mesada4 },
+  { id: 5, nombre: "Keon", descripcion: "Claro y luminoso, aporta naturalidad y fue creada para brindarle diseño a los ambientes más modernos. Su amplia gama cromática ofrece un mundo de posibilidades.", img: mesada5 },
+  { id: 6, nombre: "Nebbia", descripcion: "Con una base blanca cremosa de grano fino salpicado por cálidos topos, este versátil color, ideal para fachadas, solería y cualquier revestimiento interior y exterior, reinterpreta la textura de la Grigio Alpi, una variedad con macrofósiles de la Piedra Vicenza que se extrae en Italia desde la época romana.", img: mesada6 },
+  { id: 7, nombre: "Aura", descripcion: "Haciendo honor a los mármoles Calacatta y Carrara, la personalidad de Aura habla por sí sola. Sobre su fondo blanco se dibujan las vetas que evocan las líneas de estas piedras naturales.", img: mesada7 },
+  { id: 8, nombre: "Danae", descripcion: "Como arena que se mueve en el desierto, distintos tonos de beige se plasman a lo largo de esta superficie para atrapar esa esencia del movimiento.", img: mesada8 },
+  { id: 9, nombre: "Entzo", descripcion: "Inspirado en el mármol Calacatta Gold. El realismo y la naturalidad se respiran entre las formas aleatorias que dibujan sus vetas doradas.", img: mesada9 },
+  { id: 10, nombre: "Tundra grey", descripcion: "Piedra natural en tonos grises, proveniente de Turquía, brinda tendencia por su versatilidad y calidez. Su estética se presenta con suaves venas de tonos grises más oscuros que se marcan de manera irregular.", img: mesada10 },
+  { id: 11, nombre: "Piedra Jura Grey", descripcion: "Su apariencia en tonos grises, permite distinguir en su trama los restos fósiles petrificados que conforman su notoria y peculiar estética. De alto tránsito, puede ser aplicada en solados y grandes fachadas de diversas construcciones, tolerando la intemperie y cambios climáticos.", img: mesada11 },
+  { id: 12, nombre: "Carrara Extra", descripcion: "Atemporal por excelencia, es un material que garantiza lujo y absoluta calidad. Inigualable como pocos, aplicable para infinidad de proyectos, creando un ambiente sofisticado y elegante.", img: mesada12 },
+  { id: 13, nombre: "Beige Arena", descripcion: "Inspirado en las dunas del desierto, ofrece un diseño con tonos beige, ideal para combinar con todos los modelos de la paleta cromática imponiendo su gran impronta.", img: mesada13 },
+  { id: 14, nombre: "Blanco Neve", descripcion: "Inspirado en el color blanco de la nieve de Harbin. Es una apuesta segura al poder combinarse con cualquier elemento arquitectónico, aportando frescura y luminosidad en los espacios.", img: mesada14 },
+  { id: 15, nombre: "Calacatta Milano", descripcion: "Inspirado en el el Mármol Calacatta, ofrece un diseño con un fondo blanco marfil y vetas doradas y grises que le dan una impronta única.", img: mesada15 },
+  { id: 16, nombre: "Rosso Levanto", descripcion: "Con carácter, tradicional y decidido, su fondo bordo-borravino y vetas notablemente blancas que generan una tupida trama, son una opción que nunca pasará de moda. Desde columnas con gran majestuosidad hasta sencillas mesadas de baño, esta piedra natural será una excelente propuesta a la hora del diseño.", img: mesada16 },
+  { id: 17, nombre: "Saint laurent", descripcion: "Intenso y con total personalidad, este material nos cautiva con su fondo negro y vetas que se entrecruzan drásticamente en tonos ocres casi dorados, blancos y grises. Permite generar un ambiente con carácter supremo, con cierta masculinidad y absolutamente refinado.", img: mesada17 },
+  { id: 18, nombre: "Black Forest", descripcion: "Mármol negro de profundidad infinita, con vetas notablemente marcadas, caprichosas y ondulantes, que evocan los nudos de la madera misma. Su fondo oscuro se ve surcado por vetas de un blanco puro y de tonos grises.", img: mesada18 },
+  { id: 19, nombre: "Travertino Silver", descripcion: "De impronta conservadora y sofisticada, sus tonos grises garfitos y vetas apaisadas, se presentan en varios valores. Con total personalidad, permite ser acompañado de diversidad de materiales, colores y texturas, generando ambientes de absoluta vanguardia.", img: mesada19 },
+  { id: 20, nombre: "Travertino al Agua", descripcion: "Un clásico siempre vigente, versátil y jerárquico a la vez. Se puede implementar en diversidad de proyectos. Material legendario y con unas cualidades excepcionales que lo hacen estar a la vanguardia de las más altas exigencias decorativas.", img: mesada20 },
+  { id: 21, nombre: "Travertino a la veta", descripcion: "Un clásico aplicable en diversidad de trabajos, es un material noble como pocos. Sus vetas horizontales e irregulares se hacen presentes en esta piedra como su marca distintiva, es una opción acogedora y totalmente cálida donde se lo presente.", img: mesada21 },
+  { id: 22, nombre: "Bianco Antico", descripcion: "Brinda ambientes únicos y lujosos a la hora de sus creaciones. Si se busca un espacio luminoso, este granito combina a la perfección con diversas tonalidades de maderas, generando un ambiénte cálido y acogedor.", img: mesada22 },
+  { id: 23, nombre: "Alpinus", descripcion: "Este granito un sello de personalidad por su paleta cromática de grises, marrones y marfiles; Delicado y etéreo en su aspecto. Pleno de sutileza que conjuga perfectamente con materiales cálidos o fríos y se mimetiza en espacios de espíritu minimalista.", img: mesada23 },
+  { id: 24, nombre: "Maori", descripcion: "Imponente y con impronta, perfecto para proyectos excepcionales. Su fondo negro muy brillante refleja las vetas blancas caprichosas que lo componen.", img: mesada24 },
+  { id: 25, nombre: "Gris Mara", descripcion: "Es uno de los granitos más duros, de gran calidad y resistencia del mercado local, por su tonalidad neutra en gris con presencia de granos finos blancos y negros, se destaca por brindar grandes propiedades para todas las aplicaciones requeridas.", img: mesada25 },
+  { id: 26, nombre: "Negro Boreal", descripcion: "Su fondo negro con nubes y detalles muchas veces amarronados, nos permite tener contar con un granito poco común donde prevalecen esas nubes claras por sobre la clásica granulometría.", img: mesada26 },
+  { id: 27, nombre: "Perla", descripcion: "Su color varía entre la tonalidad gris y la presencia del negro, de pequeñas y medianas granulometrías. Clasico y versátil, puede considerarse para cualquier tipo de aplicación.", img: mesada27 },
+  { id: 28, nombre: "Black Taurus", descripcion: "Es una cuarcita intensa, con una potente presencia que emana absoluta calidez. Los rayos del sol parecen iluminar a pleno cualquier espacio con la intervención de esta exquisita piedra natural. Con vetas rabiosas y radiantes que van desde colores ocres, anaranjados y dorados hasta un fondo casi negro de gran carácter y movimiento.", img: mesada28 },
+  { id: 29, nombre: "Jacaranda", descripcion: "Sus colores cálidos esplendorosos, recorren las tonalidades de los naranjas, ocres y amarillos. Con total fuerza y exotismo, remite a espectaculares suelos volcánicos. Ideal para aplicar en baños y cocinas a pleno color, creando una personalidad única, añadiendo exclusividad y suma elegancia.", img: mesada29 },
+  { id: 30, nombre: "Lemurian", descripcion: "Su estética en tonos negros y azules de impresionante intensidad, le dan la esencia magnética e inspiradora a la hora del diseño. Un color que aporta equilibrio a la decoración actual. Su profundo azul, jaspeado de chispazos turquesa – verdosos, lo convierte en un material altamente decorativo que luce más aún si se lo retroilumina.", img: mesada30 },
+  { id: 31, nombre: "Ethereal Dusk", descripcion: "Un toque moderno escondido en el acento azulado del interior de cada grano. Direccionalidad geométrica muy vanguardista. Estilo urbano y moderno. Combina muy bien con colores oscuros como el negro y el marrón. También combina bien con las maderas rojizas y los metales oscuros y oxidados o dorados.", img: mesada31 },
+  { id: 32, nombre: "Gris Expo", descripcion: "Este gris intenso de acabado perfecto y suave es un clásico atemporal cuya elegancia no pasará desapercibida.", img: mesada32 },
+
 ];
 
 
